@@ -1,12 +1,13 @@
 # Morsy's Personal Website
 
+Live Demo : [Show Live](https://imooorsy.github.io/Moorsy/)
+
 ## Table of Contents
 
 1. [Home](#home)
 2. [Skills](#skills)
 3. [Contact Me](#contact-me)
 
-Live Demo : [Show Live](https://imooorsy.github.io/Moorsy/)
 ## Home
 
 Welcome to my personal website! This is the landing page where you can find information about me and navigate to other sections.
