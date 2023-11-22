@@ -1,6 +1,7 @@
 var arrowDown = document.getElementById("arrowdown");
 // var blogTitle = document.getElementById("blog-title");
 // var blogArrowDown = document.getElementById("blogarrowdown")
+var nav = document.getElementById("nav")
 var menuBtn = document.getElementById("menubtn")
 var closeMenu = document.getElementById("closemenu")
 var homeMenu = document.getElementById("homemenu")
@@ -11,9 +12,9 @@ var homeImg = document.getElementById("home-img")
 
 window.onscroll = function () {
     if(this.scrollY >= 315) {
-        
+        nav.classList.add("fixed");
     } else {
-        blogTitle.classList.remove("animate");
+        nav.classList.remove("fixed");
     }
 }
 

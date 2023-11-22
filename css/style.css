@@ -97,6 +97,16 @@ body {
 header nav {
   background: transparent;
   height: 90px;
+  transition: 0.2s all ease-in-out;
+}
+
+header nav.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: var(--color-primary);
 }
 
 header nav .container .logo {
